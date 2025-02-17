@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = "vote"  // Change to your Docker Hub repo name
         DOCKER_TAG = "latest"
         DOCKER_HUB_CREDENTIALS = "docker-hub-credentials"  // Set this in Jenkins credentials
-        EC2_INSTANCE = "ubuntu@3.96.203.127"  // Change to your EC2 public IP
+        EC2_INSTANCE = "ubuntu@15.156.204.136"  // Change to your EC2 public IP
         SSH_CREDENTIALS = "ec2-ssh-key"  // Set this in Jenkins credentials
     }
 
